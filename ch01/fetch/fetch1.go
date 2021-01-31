@@ -25,6 +25,6 @@ func main() {
 			fmt.Fprintf(os.Stderr, "%s:%v\n", url, err)
 			os.Exit(1)
 		}
-		fmt.Printf("%x", b)
+		fmt.Printf("%s", b)
 	}
 }
