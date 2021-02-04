@@ -1,3 +1,4 @@
+//Pring a gif lissajous file
 package main
 
 import (

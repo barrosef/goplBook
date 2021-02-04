@@ -1,3 +1,4 @@
+//Show command line arguments with for structute
 package main
 
 import (

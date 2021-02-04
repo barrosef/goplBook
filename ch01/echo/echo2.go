@@ -1,3 +1,4 @@
+//Show command line arguments with for structute with range
 package main
 
 import (

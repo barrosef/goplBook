@@ -1,4 +1,4 @@
-//Implement a http server that the print in console header data
+//Implement a http server that the print search query
 package main
 
 import (

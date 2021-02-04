@@ -1,3 +1,4 @@
+//Find duplicated records using for structure with simple range
 package main
 
 import (
@@ -15,7 +16,7 @@ func main() {
 			fmt.Fprint(os.Stderr, "dup3:%v\n", err)
 			continue
 		}
-		for _, line := range strings.Split(string(data), "\n"){
+		for _, line := range strings.Split(string(data), "\n") {
 			counts[line]++
 		}
 	}

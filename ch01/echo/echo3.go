@@ -1,3 +1,4 @@
+//Show command line arguments using strings.Join
 package main
 
 import (

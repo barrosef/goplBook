@@ -10,9 +10,11 @@ import (
 )
 
 func main() {
+
 	const (
 		httpPrefix = "http://"
 	)
+
 	for _, url := range os.Args[1:] {
 
 		if !strings.HasPrefix(url, httpPrefix) {
